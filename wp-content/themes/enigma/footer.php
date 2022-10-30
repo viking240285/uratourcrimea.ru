@@ -26,7 +26,7 @@
             <?php 
             }else{ ?>
                 <p class="enigma_footer_copyright_info wl_rtl">
-                    <?php esc_html_e('&copy; Copyright 2020. All Rights Reserved','enigma'); ?>
+                    <?php esc_html_e('&copy; Copyright 2022. All Rights Reserved','enigma'); ?>
                 </p>    
             <?php
             }
