@@ -1,0 +1,199 @@
+﻿/*
+Theme Name: Greenigma 
+Theme URI: 
+Description: Greenigma is a Modern Material Design WordPress Theme. It is a child theme of most famous WordPress theme Enigma. It is intuitive and easy to use, robust and reliable, highly flexible and fully responsive theme. Based on live customizer, the theme allows to preview the changes as you go. It is the perfect theme for the professionals, bloggers, and creative personnel’s website, as it provides a clean and flexible appearance, an elegant portfolio, and a catchy online shop. The theme is translation ready, fully SEO optimized, fast loading and is fully compatible with woo commerce and all other major WordPress plugins.
+Author: vibhorp
+Author URI: 
+Template: enigma
+Version: 2.8
+Tested up to: 6.0.2
+Requires PHP: 7.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: rtl-language-support,two-columns, three-columns, custom-menu, right-sidebar, front-page-post-form, custom-background, featured-image-header, sticky-post, theme-options, threaded-comments, featured-images, flexible-header, translation-ready , blog , custom-logo , E-Commerce , footer-widgets , portfolio 
+Text Domain: greenigma
+*/
+@media(min-width:1200px){
+.header_search {
+    float:right !important;
+}
+}
+
+/* product template */
+.container.product h1 {
+    text-align: center;
+    padding-bottom: 37px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.col-md-12.col-sm-12.about-men-name {
+    text-align: center;
+    box-shadow: 0px 0px 22px #1abc9c26;
+    border: 1px solid #1abc9c;
+}
+.container.product {
+    padding-bottom: 76px;
+}
+.about-men-name h3 a {
+    color: #666;
+}
+.about-men-name h3{
+    margin-top: 10px !important;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    color: #fff;
+    padding: 6px;
+    background: #1abc9c;
+}
+.col-md-12.pro_btn {
+    padding: 15px;
+}
+.presto-product .img-thumbnail {
+    padding: 1px !important;
+    background-color: #1abc9c !important;
+    border: none;
+	border-radius: 0px !important;
+}
+a.added_to_cart.wc-forward {
+    background: #1abc9c;
+    color: #fff;
+    padding: 6px;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+}
+.enigma_service_iocn i, .enigma_blog_comment i {
+    font-family: FontAwesome;
+}
+.enigma_sidebar_widget ul li a:before, .enigma_footer_widget_column ul li a:before {
+    position: absolute;
+    content: "\f105";
+    left: -24px;
+    margin-left: 5px;
+    display: block;
+    position: absolute;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(50deg);
+    height: 6px;
+    background: #fff0;
+    width: 6px;
+    transform: rotate;
+    align-items: center;
+    display: flex;
+}
+.far, .fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+span.nav-previous a, span.nav-next a {
+    color: #11aa8c;
+    padding: 10px;
+}
+nav#wblizar_nav {
+    display: flex;
+}
+.nav-next {
+     padding-left: 0; 
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.reply a > i:before{
+content: "\f122";
+}
+
+
+/*----------- Button-bottom-to-top -------------*/
+#btn-to-top {
+   
+   background-color:rgba(26, 188, 156, 0.8) !important;
+   
+}
+.enigma_service_iocn i {
+ font-weight: 700 !important;}
+.open> .dropdown-menu{display:block;position: absolute;}
+.menu-item-has-children i{
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.breadcrumb li a {
+    text-decoration: underline !important;
+    }
+    p a {
+    text-decoration: underline !important;
+    }
+
+.main-navigation ul ul {
+	background-color:#1ABC9C;
+}
+
+.main-navigation a:hover {
+    background-color: #1ABC9C;
+}
+.main-navigation ul li.focus>a {
+    background-color: #1ABC9C;
+   
+}
+#btn-to-top,.wl-theme-pagination span.page-numbers.current,.hd_cover,.collapse ul.nav li.current-menu-item .dropdown-toggle,
+.collapse ul.nav li.current-menu-parent .dropdown-toggle,
+.collapse ul.nav li.current_page_ancestor .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current-menu-item .dropdown-toggle .collapse ul.nav li.current_page_ancestor .dropdown-toggle,
+.navbar-default .navbar-collapse ul.nav li.current-menu-parent .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle,.enigma_service_iocn,.enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a,.enigma_home_portfolio_caption:hover,
+.enigma_home_portfolio_caption:focus,.img-wrapper:hover .enigma_home_portfolio_caption,
+.img-wrapper:focus .enigma_home_portfolio_caption,.enigma_carousel-next:hover,
+.enigma_carousel-prev:hover,
+.enigma_carousel-next:focus,
+.enigma_carousel-prev:focus,.enigma_gallery_showcase .enigma_gallery_showcase_icons a,.enigma_cats a:hover,
+.enigma_tags a:hover,
+.enigma_cats a:focus,
+.enigma_tags a:focus,.enigma_blog_read_btn,.enigma_blog_thumb_wrapper_showcase .enigma_blog_thumb_wrapper_showcase_icons a,
+.enigma_post_date,.enigma_sidebar_widget_title,.enigma_widget_tags a:hover,.enigma_widget_tags a:focus,.tagcloud a:hover,.tagcloud a:focus,.enigma_author_detail_wrapper,.btn-search ,#enigma_send_button:hover,#enigma_send_button:focus,.enigma_send_button:hover,.enigma_send_button:focus,.pager a.selected,
+.enigma_blog_pagi a.active,.enigma_blog_pagi a:hover,.enigma_blog_pagi a:focus,.nav-pills>li.active>a:focus,.nav-stacked>li.active>a,.nav-stacked>li.active>a:focus,
+    .nav-stacked>li.active>a:hover,
+    .nav-stacked>li.active>a:focus,.navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus,
+    .navbar-toggle,.enigma_client_next:hover,.enigma_client_next:focus,.enigma_client_prev:hover,
+.enigma_client_prev:focus,.enigma_team_showcase .enigma_team_showcase_icons a,.enigma_team_caption:hover,.enigma_team_caption:focus,.enigma_team_wrapper:hover .enigma_team_caption,.enigma_callout_area,.enigma_footer_area,.enigma_dropcape_square span,.enigma_dropcape_circle span,.progress-bar,.btn-search,.dropdown-menu .active a, .navbar .nav-menu>.active>a, .navbar .nav-menu>.active>a:focus, .navbar .nav-menu>.active>a:hover, .navbar .nav-menu>.open>a, .navbar .nav-menu>.open>a:focus, .navbar .nav-menu>.open>a:hover, .navbar .nav-menu>li>a:focus, .navbar .nav-menu>li>a:hover,.carousel-list li,.main-navigation ul ul
+    {
+        background-color: #1abc9c;
+    }
+	
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
